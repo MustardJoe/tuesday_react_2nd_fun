@@ -1,0 +1,18 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Incrementer component renders Incrementer 1`] = `
+<Fragment>
+  <p>
+    Current count: 
+    0
+  </p>
+  <p>
+    happyDay
+  </p>
+  <button
+    onClick={[Function]}
+  >
+    Make go up by one!
+  </button>
+</Fragment>
+`;

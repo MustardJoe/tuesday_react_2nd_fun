@@ -1,0 +1,8 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Header component renders Header 1`] = `
+<h1>
+  Hey there 
+  , welcome! to page
+</h1>
+`;
