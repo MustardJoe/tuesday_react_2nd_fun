@@ -1,6 +1,8 @@
 import React, { Component } from 'react';
 import Incrementer from '../incrementer/Incrementer';
 import Header from '../header/Header';
+import RandomColor from '../randomcolor/RandomColor';
+import ColorPicker from '../colorpicker/ColorPicker';
 
 class Container extends Component {
   state = {
@@ -11,7 +13,9 @@ class Container extends Component {
     return (
       <>
         <Header name={this.state.name} />
-        <Incrementer />
+        <Incrementer name={this.state.name} />
+        <ColorPicker />
+        <RandomColor />
       </>
     );
   }
