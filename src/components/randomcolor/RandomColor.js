@@ -24,12 +24,12 @@ class RandomColor extends Component {
     this.setState({ color: this.randomColor(), trigger: new Date(), img: '' });
   }
 
-  componentDidUpdate(prevProps, prevState) {
-    // console.log('hi');
-    // if(prevState.color === this.state.color) {
-    //   this.setState({ img: 'https://thumbs.gfycat.com/DemandingWelltodoGallinule-poster.jpg', color: null });
-    // }
-  }
+  // componentDidUpdate(prevProps, prevState) {
+  //   // console.log('hi');
+  //   // if(prevState.color === this.state.color) {
+  //   //   this.setState({ img: 'https://thumbs.gfycfgat.com/DemandingWelltodoGallinule-poster.jpg', color: null });
+  //   // }
+  // }
 
   componentWillUnmount() {
     this.intervalId && clearInterval(this.intervalId);
